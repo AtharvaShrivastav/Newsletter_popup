@@ -1,0 +1,39 @@
+News Popup Project Documentation
+Overview
+The “News Popup” project is a simple web page that allows users to subscribe to news updates. When users click the “Subscribe” button, a dropdown popup appears, enabling them to enter their email address.
+
+Technologies Used
+HTML: For structuring the page.
+CSS: For styling the elements.
+JavaScript: To handle the button click and show/hide the popup.
+Project Structure
+index.html:
+Contains the basic structure of the web page.
+Includes the “Subscribe” button.
+styles.css:
+Defines the visual appearance of the page.
+Styles the button and popup.
+script.js:
+Handles the button click event.
+Shows/hides the popup when the button is clicked.
+Implementation Steps
+HTML Setup:
+Create an index.html file.
+Add a button with the label “Subscribe.”
+CSS Styling:
+Create a styles.css file.
+Style the button (colors, padding, etc.).
+Hide the popup initially (using display: none;).
+JavaScript Logic:
+In a script.js file:
+Select the button element using document.querySelector.
+Add a click event listener to the button.
+When the button is clicked:
+Select the popup element.
+Toggle its visibility (show/hide) using element.style.display.
+Popup Content:
+Customize the popup with relevant content (e.g., input field for email address).
+Usage
+Open index.html in a web browser.
+Click the “Subscribe” button.
+The popup should appear, allowing users to enter their email address
